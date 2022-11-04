@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background-color: #333;
+  color: #333;
+  font-family: sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box{
+  background-color: whitesmoke;
+  min-height: 200px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+#text{
+  font-size: 30px;
+  font-weight: 400;
+  
+}
+
+#author{
+  text-align: right;
+  font-weight: 300;
+}
+
+#new-quote{
+  height:30px;
+  padding: 5px;
+  font-size:17px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  float: right;
+}
+
+#tweet-quote{
+  text-decoration: none;
+  display: block;
+  height:30px;
+  padding: 5px;
+  font-size:17px;
+  border: 0;
+  color: white;
+  border-radius: 3px;
+float: left;
+}
