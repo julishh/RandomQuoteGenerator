@@ -45,6 +45,8 @@
   float: right;
 }
 
+
+
 #tweet-quote{
   text-decoration: none;
   display: block;
@@ -55,4 +57,10 @@
   color: white;
   border-radius: 3px;
 float: left;
+}
+
+#new-quote:hover, #tweet-quote:hover{
+
+  opacity: 0.7;
+  
 }
